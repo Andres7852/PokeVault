@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéVault | Carrito de Compras</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-brand">PokéVault</a>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">🌙</button>
+            <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="catalogo.html" class="nav-link">Catálogo</a></li>
+                <li><a href="contacto.html" class="nav-link">Encargos & PSA</a></li>
+                <li><a href="carrito.html" class="nav-link active">Carrito (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <section>
+            <h1>Tu Carrito de Compras</h1>
+            <div id="cart-items-list" class="cart-items-container"></div>
+
+            <div class="cart-summary">
+                <h3>Resumen de la Orden</h3>
+                <p>Total a Pagar: <strong id="cart-total-price">$0.00</strong></p>
+                <button id="clear-cart-btn" class="btn-danger">Vaciar Carrito</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 PokéVault Store — Desarrollo Web Individual</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+
+</html>
