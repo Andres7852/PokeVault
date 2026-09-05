@@ -73,3 +73,24 @@ function changeQuantity(id, delta) {
 
     renderCatalog(itemsToRender);
 }
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+
+    filterButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            filterButtons.forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+
+            const cat = e.target.getAttribute('data-category');
+            if (cat === 'todos') {
+                renderCatalog(productosPokemon);
+            } else {
+                const filtered = productosPokemon.filter(p => p.categoria === cat);
+                renderCatalog(filtered);
+            }
+        });
+    });
+});
