@@ -245,3 +245,82 @@ body {
 .cart-item-info {
     flex-grow: 1;
 }
+
+
+
+.form-container-wrapper {
+    max-width: 600px;
+}
+
+.custom-form {
+    background-color: var(--bg-card);
+    padding: 2rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+    margin-top: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.form-control {
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--bg-main);
+    color: var(--text-main);
+}
+
+.form-control.invalid {
+    border-color: var(--error);
+}
+
+.error-message {
+    color: var(--error);
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+    display: none;
+}
+
+.error-message.visible {
+    display: block;
+}
+
+.main-footer {
+    background: var(--bg-nav);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--bg-nav);
+        flex-direction: column;
+        padding: 1rem 0;
+        display: none;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+}
