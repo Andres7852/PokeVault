@@ -4,7 +4,7 @@ const productosPokemon = [
         id: 1,
         nombre: "Caja de Sobres Pokémon TCG: Scarlet & Violet",
         categoria: "tcg-boxes",
-        precio: 159.99,
+        precio: 280.00,
         imagen: "https://m.media-amazon.com/images/I/91hUKX-tu5L._AC_UF894,1000_QL80_.jpg",
         descripcion: "Booster Box sellada de fábrica con 36 sobres de la expansión base."
     },
@@ -12,7 +12,7 @@ const productosPokemon = [
         id: 2,
         nombre: "Pokémon TCG: 151 Elite Trainer Box",
         categoria: "tcg-boxes",
-        precio: 89.99,
+        precio: 550.00,
         imagen: "https://www.pokemon.com/static-assets/content-assets/cms2-es-xl/img/trading-card-game/series/incrementals/sv035-elite-trainer-box/sv035-elite-trainer-box-169-es.png",
         descripcion: "Edición especial de Kanto con 9 sobres, funda promocional de Snorlax y accesorios."
     },
@@ -20,7 +20,7 @@ const productosPokemon = [
         id: 3,
         nombre: "Crown Zenith Special Collection Box",
         categoria: "tcg-boxes",
-        precio: 64.50,
+        precio: 160.00,
         imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxN8BvG0JK-s5xa2ESf2mYaAV0OuAieiCbBSOvG9_nW2PjiO00e8aPzLBb&s=10",
         descripcion: "Caja de colección con figura promocional de Lucario VSTAR."
     },
