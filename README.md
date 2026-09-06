@@ -71,7 +71,8 @@ eliminando la fila si la cantidad llega a 0.
 
 **Uso de Inteligencia Artificial**
 
-Utilicé la IA para realizar la lógica de verificación de los formularios, para preguntarle como se podía implementar el dark mode y ayudarme a hacer el CSS.
+Utilicé la IA para realizar la lógica de verificación de los formularios, para preguntarle como se podía implementar el dark mode y ayudarme a hacer el CSS. Tambien
+para poder apoyarme a la hora de hacer los archivos .js .
 
 
 **Mayor Reto y Solución**
@@ -89,6 +90,6 @@ El mayor reto fue lograr que al cambiar entre categorías de productos en el cat
 
 - [x] **Formulario Validado:** Validación propia en `contacto.html` con retroalimentación inline en el DOM.
 
-- [x] **Historial de Commits:** Más de 6 commits repartidos progresivamente en español.
+- [x] **Historial de Commits:** Más de 6 commits repartidos progresivamente en el tiempo.
 
 - [x] **Despliegue Continuo:** Conectado automáticamente con Vercel desde la rama `main` de GitHub.
